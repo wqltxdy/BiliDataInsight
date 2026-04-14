@@ -1,0 +1,23 @@
+# Python
+.venv/
+**/__pycache__/
+*.pyc
+
+# IDE
+.idea/
+**/.idea/
+*.iml
+
+# Node.js
+node_modules/
+# package-lock.json # 通常建议提交，但如果用户希望优化，可以选择忽略
+dist/ # 前端构建输出目录
+
+# Generated data and logs
+output/
+cleaned_output/
+results/
+jobs/
+*.log
+*.env
+
